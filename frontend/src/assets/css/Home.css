@@ -1,0 +1,13 @@
+@import url(./colors.css);
+.w-100{
+    height: 450px;
+}
+
+.kss-lefthero .kss-herocard{
+    display: flex;
+    margin: 10px;
+}
+.kss-lefthero .kss-herocard img{
+    width: 100px;
+    height: 100px;
+}

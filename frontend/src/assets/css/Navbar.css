@@ -1,0 +1,14 @@
+@import url(./colors.css);
+
+.logo-image{
+    width: 110px;
+    height: 100px;
+}
+.kss-navigation{
+    background-color: var(--primary-theme);
+    color: white;
+}
+.kss-navigation .nav-link{
+    color: white;
+}
+
