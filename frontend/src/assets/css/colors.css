@@ -4,3 +4,15 @@
     --section-primary: #FFC286;  
     --section-secondary: #FFF1AF;
 }
+
+a{
+color: white !important;
+background-color: var(--primary-theme);
+text-decoration: none;
+}
+.MuiList-root{
+    background-color: var(--primary-theme);
+}
+dumm{
+    background-color: #a20149;
+}
