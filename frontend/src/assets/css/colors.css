@@ -1,7 +1,7 @@
 :root{
-    --primary-theme: #66806A;
+    --primary-theme: #00AD7C;
     --secondary-theme: #B4C6A6;
-    --section-primary: #FFC286;  
+    --section-primary: #fff1e2;  
     --section-secondary: #FFF1AF;
 }
 
@@ -12,6 +12,10 @@ text-decoration: none;
 }
 .MuiList-root{
     background-color: var(--primary-theme);
+    width: 200px;
+}
+.MuiPaper-root{
+    left: 0px !important;
 }
 dumm{
     background-color: #a20149;

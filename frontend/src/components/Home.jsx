@@ -40,26 +40,43 @@ export default function Home() {
           <div className="kss-herocard">
             <img src={avatar} alt=''/>
             <div>
+
             <h4>Name</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, aliquam!</p>
+            <p>Repellendus, aliquam!</p>
             </div>
           </div>
           <div className="kss-herocard">
             <img src={avatar} alt=''/>
             <div>
             <h4>Name</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, aliquam!</p>
+            <p>Repellendus, aliquam!</p>
             </div>
           </div>
           <div className="kss-herocard">
             <img src={avatar} alt=''/>
             <div>
             <h4>Name</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, aliquam!</p>
+            <p>Lorem ipsum aliquam!</p>
             </div>
           </div>
         </div>
       </div>
+
+
+      <section className='kss-about'>
+      <div className="kss-sec-title">
+        <h4>Who We Are ?</h4>
+      </div>
+      <div className="kss-about-info">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia suscipit eius esse. Sunt provident cum earum, officia beatae ut corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dolore assumenda eos consectetur iusto et neque ipsa eius nostrum, odio non rerum dicta consequatur ut explicabo fugit, similique culpa iste. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium voluptate rerum libero recusandae, nisi sunt qui maiores eaque atque sequi velit ratione fugiat eius. Molestias quae suscipit deleniti unde ipsum.         
+        </p>
+      </div>
+      <div className='kss-lower-about'>
+
+      </div>
+      
+      
+      </section>
 
     </main>
   )

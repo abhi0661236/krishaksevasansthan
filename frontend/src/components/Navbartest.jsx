@@ -88,7 +88,7 @@ const ResponsiveAppBar = () => {
   };
 
   return (
-    <AppBar style={{backgroundColor: '#66806A'}} position="static">
+    <AppBar style={{backgroundColor: '#00AD7C'}} position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
 
@@ -175,6 +175,14 @@ const ResponsiveAppBar = () => {
               sx={{ my: 2, color: 'white', display: 'block' }}
             >
 
+              <Link to='/blogs' >Blogs</Link>
+            </Button>
+            <Button
+
+              onClick={handleCloseNavMenu}
+              sx={{ my: 2, color: 'white', display: 'block' }}
+            >
+
               <Link to='/about' >About</Link>
             </Button>
             <Button
@@ -185,30 +193,7 @@ const ResponsiveAppBar = () => {
 
               <Link to='/contact' >Contact</Link>
             </Button>
-            <Button
-
-              onClick={handleCloseNavMenu}
-              sx={{ my: 2, color: 'white', display: 'block' }}
-            >
-
-              <Link to='/contact' >Contact</Link>
-            </Button>
-            <Button
-
-              onClick={handleCloseNavMenu}
-              sx={{ my: 2, color: 'white', display: 'block' }}
-            >
-
-              <Link to='/contact' >Contact</Link>
-            </Button>
-            <Button
-
-              onClick={handleCloseNavMenu}
-              sx={{ my: 2, color: 'white', display: 'block' }}
-            >
-
-              <Link to='/contact' >Contact</Link>
-            </Button>
+            
 
           </Box>
 

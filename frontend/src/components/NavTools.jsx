@@ -1,7 +1,7 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+
 import Button from '@mui/material/Button';
-import Logo from '../assets/media/logo192.png';
+
 import '../assets/css/Navbar.css'
 
 import TextIncreaseIcon from '@mui/icons-material/TextIncrease';
@@ -13,8 +13,8 @@ export default function Navbar() {
     <div className='kss-tool-wrapper'>
       <div className="kss-tool-container">
       <div>
-      <Button variant='contained'><TextDecreaseIcon /></Button>
-      <Button variant='contained'><TextIncreaseIcon /></Button>
+      <Button style={{marginRight:'10px'}} variant='outlined' color='inherit'><TextDecreaseIcon /></Button>
+      <Button variant='contained' color='inherit'><TextIncreaseIcon /></Button>
       </div>
       <div className='theme-col-container'>
       <Button variant='contained' style={{backgroundColor:'inherit'}}></Button>
