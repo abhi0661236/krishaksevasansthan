@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import AppBar from '@mui/material/AppBar';
 import { styled, alpha } from '@mui/material/styles';
 import Box from '@mui/material/Box';
+import PhoneIcon from '@mui/icons-material/Phone';
 import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
@@ -17,9 +18,11 @@ import AdbIcon from '@mui/icons-material/Adb';
 import InputBase from '@mui/material/InputBase';
 import SearchIcon from '@mui/icons-material/Search';
 import TextField from '@mui/material/TextField';
+import BorderColorIcon from '@mui/icons-material/BorderColor';
 import Logo from '../assets/media/logo192.png';
 import '../assets/css/colors.css';
-
+import HomeIcon from '@mui/icons-material/Home';
+import ContactSupportIcon from '@mui/icons-material/ContactSupport';
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -162,15 +165,18 @@ const ResponsiveAppBar = () => {
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
 
             <Button
-
+              className='kss-flexbtn'
+              startIcon={<HomeIcon />}
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: 'white', display: 'block' }}
             >
 
               <Link  to='/' >Home</Link>
             </Button>
+            
             <Button
-
+            className='kss-flexbtn'
+              startIcon={<BorderColorIcon />}
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: 'white', display: 'block' }}
             >
@@ -178,7 +184,8 @@ const ResponsiveAppBar = () => {
               <Link to='/blogs' >Blogs</Link>
             </Button>
             <Button
-
+            className='kss-flexbtn'
+              startIcon={<ContactSupportIcon />}
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: 'white', display: 'block' }}
             >
@@ -186,8 +193,9 @@ const ResponsiveAppBar = () => {
               <Link to='/about' >About</Link>
             </Button>
             <Button
-
+              startIcon={<PhoneIcon />}
               onClick={handleCloseNavMenu}
+              className='kss-flexbtn'
               sx={{ my: 2, color: 'white', display: 'block' }}
             >
 

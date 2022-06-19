@@ -20,3 +20,6 @@ text-decoration: none;
 dumm{
     background-color: #a20149;
 }
+.kss-flexbtn{
+    display: flex !important;
+}
