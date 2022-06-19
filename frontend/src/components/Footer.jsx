@@ -42,7 +42,7 @@ function Footer() {
                     <p><i>Copyright &copy; KRISHAK SEVA SANSTHAN.<br />
                         All Rights are reserved.
                     </i></p>
-                    <p><a href="#">Terms & Conditions</a></p>
+                    <p><a href="https://www.freeprivacypolicy.com/live/87456093-2daa-4ffe-97d2-31f67157cb45" target='_blank'>Terms & Conditions</a></p>
                 </div>
             </div>
 
