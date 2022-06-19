@@ -12,7 +12,7 @@ function Footer() {
             <figcaption><b>Krishak Seva Sansthan</b></figcaption>
             </div>
             <div className="kss-social-media">
-                <a href="#"></a>
+                <a href="#">Home</a>
                 <a href="#">Instagram</a>
                 <a href="#">Tweitter</a>
                 <a href="#">Whatsapp</a>
