@@ -1,6 +1,7 @@
 @import url(./colors.css);
 .kss-tool-wrapper{
     background-color: var(--primary-theme);
+    padding: 10px 0;
 }
 @media (max-width: 912px) {
     .kss-tool-wrapper{
@@ -8,16 +9,20 @@
     }
 }
 .kss-tool-container{
-    width: 60%;
+    width: 93%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     
 }
-.kss-tool-container .theme-col-container button{
+.kss-tool-container .theme-col-container .kss-btn{
     min-width: 40px;
     height: 40px;
     border: 1px solid black;
     border-radius: 50%;
+    margin-left: 10px;
+}
+.kss-tool-container div a{
+    padding: 15px 15px 15px 0px;
 }
