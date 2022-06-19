@@ -30,7 +30,7 @@
     position: relative;
     width: 100%;
     height: 500px;
-    background-color: var(--section-primary);
+    background-color: white;
     background-image: url(../media/wave.svg);
     background-repeat: no-repeat;
     background-position: bottom;
@@ -38,7 +38,7 @@
 }
 .kss-sec-title h4{
     font-size: 50px;
-    margin-top: 20px;
+    padding-top: 20px;
     text-align: center;
     text-transform: capitalize;
 }
@@ -47,7 +47,7 @@
     padding: 20px 40px;
     width: 800px;
     height: 300px;
-    margin: 50px auto;
+    margin: 0px auto;
     background-color: white;
     border-radius: 20px;
     top: 50%;
@@ -64,4 +64,75 @@
         top: 0;
         left: 0;
     }
+}
+
+.kss-mission{
+    width: 100%;
+    height: 500px;
+    background-color: var(--section-primary);
+    background-image: url(../media/gehun.png);
+    background-repeat: no-repeat;
+    background-size: 150px 300px;
+    background-position: right bottom;
+}
+.kss-mission-card1{
+    width: 400px;
+height: 250px;
+position: relative;
+background-color: rgb(252, 252, 119);
+padding: 20px;
+border-radius: 10px;
+top: 60px;
+left: 200px;
+z-index: 4;
+}
+.kss-mission-card2{
+    width: 600px;
+height: 370px;
+position: relative;
+border-radius: 10px;
+top: -49%;
+left: 40%;
+}
+.kss-mission-card2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border:20px solid white;
+    box-shadow: 5px 5px 10px rgb(173, 173, 173);
+}
+
+@media (max-width: 912px) {
+    .kss-mission{
+        width: 100%;
+        height: auto;
+        background-color: var(--section-primary);
+        background: none;
+    }
+    .kss-mission-card1{
+        width: 100%;
+    height: auto;
+    
+    padding: 20px;
+    border-radius: 10px;
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+    }
+    .kss-mission-card2{
+        width: 100%;
+    height: auto;
+    top:0px;
+    left: 0px;
+    border-radius: 10px;
+    
+    }
+    .kss-mission-card2 img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        border:20px solid white;
+        box-shadow: 5px 5px 10px rgb(173, 173, 173);
+    }
+    
 }
