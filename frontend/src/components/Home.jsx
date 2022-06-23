@@ -42,8 +42,8 @@ export default function Home() {
             <img src={avatar} alt='' />
             <div>
 
-              <h4>Name</h4>
-              <p>Repellendus, aliquam!</p>
+              <h4>Umesh Kumar Prajapati</h4>
+              <p>Lecturer, Bageswari ITI</p>
             </div>
           </div>
           <div className="kss-herocard">
