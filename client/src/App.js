@@ -12,6 +12,7 @@ import Nopage from './components/Nopage';
 
 
 import './assets/css/App.css';
+import Support from './components/Support';
 
 
 export default function App() {
@@ -23,6 +24,7 @@ export default function App() {
             <Route path='blogs' element={<Blogs />} />
             <Route path='about' element={<About />} />
             <Route path='contact' element={<Contact />} />
+            <Route path='support' element={<Support />} />
             <Route path='*' element={<Nopage />} />
           </Route>
         </Routes>

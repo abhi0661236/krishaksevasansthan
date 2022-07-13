@@ -28,12 +28,16 @@ const Navbar = () => {
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a className="dropdown-item" href="#">Vermi Composting</a></li>
             <li><a className="dropdown-item" href="#">Shava-Vahini action</a></li>
-            <li><hr className="dropdown-divider" /></li>
+            
+            <li className="dropdown-header">Upcoming</li>
             <li><a className="dropdown-item" href="#">Farming Campaign</a></li>
           </ul>
         </li>
         <li className="nav-item">
           <Link className="nav-link" to='/contact'><i className="fas fa-phone"></i> Contact</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to='/support'><i class="fa-solid fa-hand-holding-dollar"></i> Support</Link>
         </li>
       </ul>
       <form className="d-flex" role="search">
