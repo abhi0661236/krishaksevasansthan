@@ -91,7 +91,7 @@ const ResponsiveAppBar = () => {
   };
 
   return (
-    <AppBar style={{backgroundColor: '#00AD7C'}} position="static">
+    <AppBar style={{ backgroundColor: '#00AD7C' }} position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
 
@@ -132,31 +132,31 @@ const ResponsiveAppBar = () => {
                 <Typography textAlign="center">
                   <Link to='/'>Home</Link>
                 </Typography>
-                
+
               </MenuItem>
               <MenuItem onClick={handleCloseNavMenu}>
                 <Typography textAlign="center">
                   <Link to='/blog'>Blogs</Link>
                 </Typography>
-                
+
               </MenuItem>
               <MenuItem onClick={handleCloseNavMenu}>
                 <Typography textAlign="center">
                   <Link to='/services'>Services</Link>
                 </Typography>
-                
+
               </MenuItem>
               <MenuItem onClick={handleCloseNavMenu}>
                 <Typography textAlign="center">
                   <Link to='/about'>About</Link>
                 </Typography>
-                
+
               </MenuItem>
               <MenuItem onClick={handleCloseNavMenu}>
                 <Typography textAlign="center">
                   <Link to='/contact'>Contact</Link>
                 </Typography>
-                
+
               </MenuItem>
 
             </Menu>
@@ -171,11 +171,11 @@ const ResponsiveAppBar = () => {
               sx={{ my: 2, color: 'white', display: 'block' }}
             >
 
-              <Link  to='/' >Home</Link>
+              <Link to='/' >Home</Link>
             </Button>
-            
+
             <Button
-            className='kss-flexbtn'
+              className='kss-flexbtn'
               startIcon={<BorderColorIcon />}
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: 'white', display: 'block' }}
@@ -184,7 +184,7 @@ const ResponsiveAppBar = () => {
               <Link to='/blogs' >Blogs</Link>
             </Button>
             <Button
-            className='kss-flexbtn'
+              className='kss-flexbtn'
               startIcon={<ContactSupportIcon />}
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: 'white', display: 'block' }}
@@ -201,7 +201,7 @@ const ResponsiveAppBar = () => {
 
               <Link to='/contact' >Contact</Link>
             </Button>
-            
+
 
           </Box>
 
@@ -224,7 +224,7 @@ const ResponsiveAppBar = () => {
                 <Avatar alt="branding" variant='square' style={{ width: '100px', height: '90px' }} src={Logo} />
               </IconButton>
             </Tooltip>
-            <Menu
+            {/* <Menu
               sx={{ mt: '45px' }}
               id="menu-appbar"
               anchorEl={anchorElUser}
@@ -245,7 +245,7 @@ const ResponsiveAppBar = () => {
                   <Typography textAlign="center">{setting}</Typography>
                 </MenuItem>
               ))}
-            </Menu>
+            </Menu> */}
           </Box>
         </Toolbar>
       </Container>

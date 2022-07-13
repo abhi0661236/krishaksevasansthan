@@ -11,6 +11,9 @@ import Blogs from './components/Blogs';
 import Nopage from './components/Nopage';
 
 
+import './assets/css/App.css';
+
+
 export default function App() {
   return (
     <BrowserRouter>

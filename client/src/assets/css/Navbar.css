@@ -26,3 +26,17 @@
 .kss-tool-container div a{
     padding: 15px 15px 15px 0px;
 }
+
+.kss-nav-wrapper .navbar{
+    background-color: var(--primary-theme);
+}
+.kss-nav-wrapper .container-fluid .navbar-brand img{
+    width: 100px;
+    height: auto;
+}
+.kss-nav-wrapper .dropdown-menu{
+    background-color: var(--primary-theme);
+}
+.kss-nav-wrapper .dropdown-item:focus, .dropdown-item:hover{
+    background-color: #01986e;
+}
