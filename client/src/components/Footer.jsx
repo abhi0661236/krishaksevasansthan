@@ -32,7 +32,6 @@ function Footer() {
                 <div className="kss-footer-menu">
                     <ul>
                         <li><Link to='/'>Home</Link></li>
-                        <li><Link to='/blogs'>Blog</Link></li>
                         <li><Link to='/about'>About Us</Link></li>
                         <li><Link to='/contact'>Contact Us</Link></li>
                         
@@ -43,6 +42,9 @@ function Footer() {
                         All Rights are reserved.
                     </i></p>
                     <p><a href="https://www.freeprivacypolicy.com/live/87456093-2daa-4ffe-97d2-31f67157cb45" target='_blank'>Terms & Conditions</a></p>
+                    <p><b><i>
+                    Designed & Developed By <strong>APCODE</strong>    
+                    </i></b></p>
                 </div>
             </div>
 

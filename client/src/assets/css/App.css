@@ -1,3 +1,9 @@
+@import url(./colors.css);
+
+::selection{
+    background-color: var(--selection);
+}
+
 body{
     overflow-x: hidden;
 }
