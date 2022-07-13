@@ -33,6 +33,7 @@
 
 .kss-nav-wrapper .navbar{
     background-color: var(--primary-theme);
+    align-items: center;
 }
 .kss-nav-wrapper .container-fluid .navbar-brand img{
     width: 100px;
@@ -41,6 +42,14 @@
 .kss-nav-wrapper .dropdown-menu{
     background-color: var(--primary-theme);
 }
+.kss-nav-wrapper .userDropdown-menu{
+    left: -70px;
+}
+@media (max-width: 768px) {
+    .kss-nav-wrapper .userDropdown-menu{
+        left: 0px;
+    }
+}
 .kss-nav-wrapper .dropdown-menu .dropdown-header{
     color: rgb(255, 255, 255);
     background-color: #003e2c;
@@ -48,4 +57,11 @@
 }
 .kss-nav-wrapper .dropdown-item:focus, .dropdown-item:hover{
     background-color: #01986e;
+}
+
+.kss-nav-wrapper #userDropdown{
+    font-size: 30px;
+}
+.kss-nav-wrapper #userDropdown::after{
+    display: none;
 }
