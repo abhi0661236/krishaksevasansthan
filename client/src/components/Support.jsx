@@ -32,7 +32,7 @@ const Support = () => {
           </div>
           <div className="form-group mb-3">
             <label htmlFor="amount">Donation-amount:</label>
-            <input className='form-control' type="number" id="amount" name='donation-amount' />
+            <input className='form-control' type="number" id="amount" name='donation-amount' placeholder='10' />
           </div>
           <hr />
           <div className="form-footer mb-3">

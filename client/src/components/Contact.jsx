@@ -46,16 +46,16 @@ function Contact() {
       <form className='container' onSubmit={(e)=>handleOnSubmit(e)}>
         <div className="mb-3">
           <label htmlFor="name" className="form-label">Full Name :</label>
-          <input type="text" className="form-control" id="name" name='from_name' onChange={(e)=>handleOnChange(e)} />
+          <input type="text" className="form-control" id="name" name='from_name' required onChange={(e)=>handleOnChange(e)} />
         </div>
         <div className="mb-3">
           <label htmlFor="email" className="form-label">Email address</label>
-          <input type="email" className="form-control" id="email"  name='from_email' onChange={(e)=>handleOnChange(e)} />
+          <input type="email" className="form-control" id="email"  name='from_email' required onChange={(e)=>handleOnChange(e)} />
           <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
         </div>
         <div className="mb-3">
           <label htmlFor="message" className="form-label">Message :</label>
-          <textarea className="form-control" id="message" rows='5'  name='message' onChange={(e)=>handleOnChange(e)}>
+          <textarea className="form-control" id="message" rows='5'  name='message' required onChange={(e)=>handleOnChange(e)}>
           </textarea>
         </div>
         <div className="mb-3">
