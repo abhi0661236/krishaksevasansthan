@@ -1,0 +1,22 @@
+.kss-support-wrapper{
+    
+}
+.kss-support-wrapper .container{
+    width: 50%;
+}
+.kss-support-wrapper .container form .form-group,
+.kss-support-wrapper .container form .form-radio,
+.kss-support-wrapper .container form .form-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.kss-support-wrapper .container form .form-group input{
+    width: 70%;
+}
+.kss-support-wrapper .container form .form-radio div{
+    width: 70%;
+}
+.kss-support-wrapper .container form .form-footer{
+    
+}
